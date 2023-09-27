@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=a, initial-scale=1.0">
+    <title>Fix Fast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--menu y inicio de la pagina-->
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Fix Fast</a>
+            <img src="/img/Fix_Fast_Logo-removebg-preview_casa.png" alt="" class="icon-img">
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="Carrito-removebg-preview.png" id="imagen-carrito" alt="carrito" class="icon-img">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+                <div class="header-img">
+                    <img src="images/right.png" alt="">
+                </div>
+                <div class="header-txt">
+                    <h1>Ofertas especiales</h1>
+                    <p>los mejores Productos</p>
+                    <a href="#ofert container" class="btn-1">informacion</a>
+                </div>
+        </div>
+    </header>
+        <!--parte de servicios-->
+    <section class="ofert container">
+         <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="/img/plomeria-servicios.webp" alt="">
+            </div>
+
+            <div class="ofert-txt">
+                <h3>plomeria</h3>
+                <a href="" class="btn-2" id=".open-service-popu">servicio</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="/img/redes.jpeg" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>tecnico en redes</h3>
+                <a href="" class="btn-2" id=".open-service-popu">servicio</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="/img/otros servivios.png" alt="" class="mg-ofert">
+            </div>
+            <div class="ofert-txt">
+                <h3>mas servicio </h3>
+                <a href=""  class="btn-2"  id=".open-service-popu">otros servicio</a>
+            </div>
+        </div>
+        <!--parte de ventana emergente-->
+
+        <div class="popup" id="servicio-popup">
+            <div class="popup-content">
+                <h1>servicios</h1>
+                <div class="servicio-info">
+                    <h2>Plomeria</h2>
+                    <img src="/img/plomeria-servicios.webp" alt="Servicio" class="img-poup" />
+                    <p>Nuestro servicio de plomería está diseñado para resolver tus problemas de fontanería de manera eficiente y confiable. Nuestros expertos plomeros están disponibles las 24 horas del día, los 7 días de la semana</p>
+                    <button id="contratar-servicio">Contratar Servicio</button>
+                </div>
+
+                <div class="servicio-info">
+                    <h2>tecnico en redes</h2>
+                    <img src="/img/redes.jpeg" alt="Servicio" />
+                    <p>Experto en configuración, mantenimiento y resolución de problemas de redes. Con sólidos conocimientos en hardware y software, optimiza el rendimiento de sistemas informáticos, garantizando conectividad confiable y segura.</p>
+                    <button id="contratar-servicio">Contratar Servicio</button>
+                </div>
+
+                <div class="servicio-info">
+                    <h2>electrisista</h2>
+                    <img src="/img/electrisista.jpeg" alt="Servicio" />
+                    <p>Profesional experto en sistemas eléctricos. Instala, mantiene y repara sistemas eléctricos residenciales y comerciales para garantizar un funcionamiento seguro y eficiente. </p>
+                    <button id="contratar-servicio">Contratar Servicio</button>
+                </div>
+
+                <button id="cerrar-servicio-popup">Cerrar</button>
+            </div>
+        </div>
+
+    </section>
+ <!--parte de productos-->
+    <main class="products container" id="lista-1">
+        <h2>productos</h2>
+
+        <div class="product-content">
+
+            <div class="product">
+                <img src="/img/pintura.jpg" alt="">
+                <div class="product-txt">
+                    <h3>pegamento pvc</h3>
+                    <p>calidad producto</p>
+                    <p class="precio">$10</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="/img/llave.jpg" alt="">
+                <div class="product-txt">
+                    <h3>llave inglesa</h3>
+                    <p>calidad producto</p>
+                    <p class="precio">$20</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+
+
+            <div class="product">
+                <img src="/img/router.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Router de casa</h3>
+                    <p>calidad producto</p>
+                    <p class="precio">$40</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="/img/motor.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Motor de caminon</h3>
+                    <p>calidad producto</p>
+                    <p class="precio">$100</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="/img/pegamento-plomeria.webp" alt="">
+                <div class="product-txt">
+                    <h3>pegamento de plomeria</h3>
+                    <p>calidad producto</p>
+                    <p class="precio">$25</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="/img/convertidor-hdmir-a-vga.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Adaptador vga a hdmi</h3>
+                    <p>calidad producto</p>
+                    <p class="precio">$30</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <section class="icons container">
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="imagen/1.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Productos de calidad</h3>
+                <p>nuestros productos de confiansa , muy buena calidad y confianza </p>
+            </div>
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="imagen/2.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3></h3>
+                <p>amet consectetur adipisicing elit</p>
+            </div>
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="imagen/3.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                <p>amet consectetur adipisicing elit</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="blog container">
+
+        <div class="blog-1">
+            <img src="images/b1.jpg" alt="">
+            <h3>blog 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sed quis eos fugiat ipsum sunt aspernatur, quibusdam labore corrupti impedit voluptatibus repudiandae laboriosam nihil corporis eveniet ab iusto cupiditate laudantium!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium architecto sunt ab suscipit laudantium odit assumenda, adipisci omnis? Debitis, amet officiis vero delectus animi porro nobis unde non asperiores magnam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, itaque soluta doloribus dignissimos, maiores voluptatibus animi nobis aperiam repellendus minima accusamus accusantium. Cumque fugit ipsa voluptates vero soluta, nostrum cum.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam odio repellendus eius. Ullam quos sint voluptates pariatur porro minus doloribus illo nemo voluptas? Eum, dolores repudiandae unde beatae laudantium cumque!
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="images/b1.jpg" alt="">
+            <h3>blog 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sed quis eos fugiat ipsum sunt aspernatur, quibusdam labore corrupti impedit voluptatibus repudiandae laboriosam nihil corporis eveniet ab iusto cupiditate laudantium!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium architecto sunt ab suscipit laudantium odit assumenda, adipisci omnis? Debitis, amet officiis vero delectus animi porro nobis unde non asperiores magnam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, itaque soluta doloribus dignissimos, maiores voluptatibus animi nobis aperiam repellendus minima accusamus accusantium. Cumque fugit ipsa voluptates vero soluta, nostrum cum.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam odio repellendus eius. Ullam quos sint voluptates pariatur porro minus doloribus illo nemo voluptas? Eum, dolores repudiandae unde beatae laudantium cumque!
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="images/b1.jpg" alt="">
+            <h3>blog 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sed quis eos fugiat ipsum sunt aspernatur, quibusdam labore corrupti impedit voluptatibus repudiandae laboriosam nihil corporis eveniet ab iusto cupiditate laudantium!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium architecto sunt ab suscipit laudantium odit assumenda, adipisci omnis? Debitis, amet officiis vero delectus animi porro nobis unde non asperiores magnam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, itaque soluta doloribus dignissimos, maiores voluptatibus animi nobis aperiam repellendus minima accusamus accusantium. Cumque fugit ipsa voluptates vero soluta, nostrum cum.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam odio repellendus eius. Ullam quos sint voluptates pariatur porro minus doloribus illo nemo voluptas? Eum, dolores repudiandae unde beatae laudantium cumque!
+            </p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="scrip.js"></script>
+</body>
+</html>
+
+
